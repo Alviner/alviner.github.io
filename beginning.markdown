@@ -19,7 +19,7 @@ permalink: /beginning/
 
 Итак, мы начинаем...
 
-![alt text][roadmap]
+![roadmap][roadmap]
 
 
 [roadmap]: https://roadmap.sh/roadmaps/backend.png "backend roadmap"
