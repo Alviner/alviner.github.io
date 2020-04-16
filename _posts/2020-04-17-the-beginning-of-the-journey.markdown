@@ -2,7 +2,7 @@
 layout: post
 title:  "Начало приключения"
 date:   2020-04-17 00:15:39 +0300
-categories: [prequel, book]
+categories: [prequel]
 ---
 
 Прежде чем вступить на эту тропу, необходимо подготовиться к походу.
