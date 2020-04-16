@@ -29,6 +29,7 @@ github_username:  alviner
 telegram: ivsitkin
 
 lang: ru
+timezone: Europe/Moscow
 
 # Build settings
 theme: minima
