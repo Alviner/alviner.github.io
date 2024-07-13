@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  content: {
+    contentHead: true
+  },
   devtools: { enabled: true },
   modules: ['@nuxt/content', "@nuxt/image", "@nuxtjs/tailwindcss"],
   components: true,
