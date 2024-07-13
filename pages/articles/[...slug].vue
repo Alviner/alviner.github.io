@@ -1,13 +1,13 @@
 <template>
   <main>
-    <ContentRenderer :value="article" />
+    <ContentRenderer :value="article" v-if="article" />
   </main>
 </template>
 
-
-<script setup>
+<script setup lang="ts">
 const route = useRoute();
-const { data: article } = await useAsyncData("article", () =>
-  queryContent(`/articles/${route.params.slug}`).findOne()
+const { data: article } = await useAsyncData(
+  `article-${route.params.slug}`,
+  () => queryContent(`/articles/${route.params.slug}`).findOne(),
 );
 </script>
