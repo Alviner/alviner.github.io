@@ -1,7 +1,11 @@
 <template>
   <main>
     <ul role="list" class="devide-y devide-gray-100">
-      <ArticleListItem v-for="article in articles" :key="article.id" :article="article"></ArticleListItem>
+      <ArticleListItem
+        v-for="article in articles"
+        :key="article.id"
+        :article="article"
+      ></ArticleListItem>
     </ul>
   </main>
 </template>
