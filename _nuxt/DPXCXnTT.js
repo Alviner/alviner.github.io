@@ -1,0 +1,1 @@
+import{e as t,o as a,h as s,w as n,i as o,a as r}from"./CdGTCMuh.js";const i=t({__name:"index",setup(_){return(p,e)=>(a(),s(o,{class:"mt-9"},{default:n(()=>e[0]||(e[0]=[r("p",null,"Lets try",-1)])),_:1}))}});export{i as default};
