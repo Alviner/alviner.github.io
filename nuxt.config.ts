@@ -9,11 +9,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/content", "@nuxt/image", "@nuxtjs/tailwindcss"],
   components: true,
-  app: {
-    head: {
-      script: [themePlugin],
-    },
-  },
+  plugins: ["~/plugins/theme.client.js"],
 
   routeRules: {
     "/": { prerender: true },

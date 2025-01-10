@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply flex h-full flex-col bg-zinc-50 dark:bg-black;
+}
