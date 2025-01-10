@@ -1,28 +1,29 @@
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
+import { onMounted, ref, watch } from "vue";
 
 import SunIcon from "./icons/SunIcon.vue";
 import MoonIcon from "./icons/MoonIcon.vue";
 
 const isDarkMode = ref(false);
 
+watch(isDarkMode, (event) => {
+    document.documentElement.classList.toggle("dark", event);
+    if (event) {
+        localStorage.theme = "dark";
+    } else {
+        localStorage.theme = "light";
+    }
+});
+
 onMounted(() => {
     isDarkMode.value =
         localStorage.theme === "dark" ||
         (!("theme" in localStorage) &&
             window.matchMedia("(prefers-color-scheme: dark)").matches);
-    document.documentElement.classList.toggle("dark", isDarkMode.value);
 });
 
 function toggleMode() {
     isDarkMode.value = !isDarkMode.value;
-    if (isDarkMode.value) {
-        localStorage.theme = "dark";
-    } else {
-        localStorage.theme = "light";
-    }
-
-    document.documentElement.classList.toggle("dark", isDarkMode.value);
 }
 </script>
 
