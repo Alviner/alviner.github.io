@@ -11,6 +11,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   document.documentElement.classList.toggle("dark", isDarkMode);
 })();`,
         type: "text/javascript",
+        tagPriority: "critical",
       },
     ],
   });
