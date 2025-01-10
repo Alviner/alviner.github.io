@@ -1,8 +1,3 @@
-<script setup lang="ts">
-import ModeToggle from "./ModeToggle.vue";
-import Container from "../../components/Container.vue";
-</script>
-
 <template>
     <header
         class="pointer-events-none relative z-50 flex flex-col"
@@ -18,9 +13,14 @@ import Container from "../../components/Container.vue";
             >
                 <div class="relative flex gap-4">
                     <div class="flex flex-1"></div>
-                    <div
-                        class="flex flex-1 justify-end md:justify-center"
-                    ></div>
+                    <div class="flex flex-1 justify-end md:justify-center">
+                        <MobileNavigation
+                            class="pointer-events-auto md:hidden"
+                        />
+                        <Navigation
+                            class="pointer-events-auto hidden md:block"
+                        />
+                    </div>
                     <div class="flex justify-end md:flex-1">
                         <div class="pointer-events-auto">
                             <ModeToggle />
@@ -31,3 +31,10 @@ import Container from "../../components/Container.vue";
         </div>
     </header>
 </template>
+
+<script setup lang="ts">
+import ModeToggle from "./ModeToggle.vue";
+import Container from "../../components/Container.vue";
+import Navigation from "../../components/Navigation.vue";
+import MobileNavigation from "../../components/MobileNavigation.vue";
+</script>
