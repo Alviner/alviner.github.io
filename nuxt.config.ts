@@ -1,7 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-
-import themePlugin from "./plugins/theme.client.js";
-
 export default defineNuxtConfig({
   content: {
     contentHead: true,
