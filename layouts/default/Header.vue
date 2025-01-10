@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import ModeToggle from "./ModeToggle.vue";
-import Container from "./Container.vue";
+import Container from "~/components/Container.vue";
 </script>
 
 <template>
