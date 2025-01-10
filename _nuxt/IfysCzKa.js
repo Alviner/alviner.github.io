@@ -1,0 +1,1 @@
+import{_ as t}from"./D0VE8dop.js";import{e as a,o as s,h as o,w as r,a as n}from"./DdsWh-OW.js";const f=a({__name:"index",setup(_){return(m,e)=>(s(),o(t,{class:"mt-9"},{default:r(()=>e[0]||(e[0]=[n("p",null,"Lets try",-1)])),_:1}))}});export{f as default};
