@@ -7,7 +7,6 @@ export default defineNuxtConfig({
   modules: ["@nuxt/content", "@nuxt/image", "@nuxtjs/tailwindcss"],
   components: true,
   plugins: ["~/plugins/theme.client.js"],
-
   routeRules: {
     "/": { prerender: true },
   },
