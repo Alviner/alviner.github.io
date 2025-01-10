@@ -17,7 +17,7 @@
                         <MobileNavigation
                             class="pointer-events-auto md:hidden"
                         />
-                        <Navigation
+                        <DesktopNavigation
                             class="pointer-events-auto hidden md:block"
                         />
                     </div>
@@ -35,6 +35,6 @@
 <script setup lang="ts">
 import ModeToggle from "./ModeToggle.vue";
 import Container from "../../components/Container.vue";
-import Navigation from "../../components/Navigation.vue";
+import DesktopNavigation from "../../components/DesktopNavigation.vue";
 import MobileNavigation from "../../components/MobileNavigation.vue";
 </script>
