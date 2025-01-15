@@ -1211,24 +1211,25 @@
     unwasm "^0.3.9"
     vfile "^6.0.3"
 
-"@nuxtjs/tailwindcss@^6.12.2":
-  version "6.12.2"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-6.12.2.tgz#3fa41b0b9361cd69ec14934f800e66225b3c9e1f"
-  integrity sha512-qPJiFH67CkTj/2kBGBzqXihOD1rQXMsbVS4vdQvfBxOBLPfGhU1yw7AATdhPl2BBjO2krjJLuZj39t7dnDYOwg==
+"@nuxtjs/tailwindcss@^6.13.1":
+  version "6.13.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-6.13.1.tgz#9c4dfc71c4fcb8382af78c8a4fa63eaba62d4ea9"
+  integrity sha512-atL2SaPsxLfMTlXUQvr1UpDYdz6ocNOhH35H+t7M++g4r79QiQScJ7XuyyMR9AyBN19lkPA3nw7NXxazXmYxlA==
   dependencies:
-    "@nuxt/kit" "^3.13.2"
+    "@nuxt/kit" "^3.15.1"
     autoprefixer "^10.4.20"
-    consola "^3.2.3"
+    c12 "^2.0.1"
+    consola "^3.3.3"
     defu "^6.1.4"
-    h3 "^1.13.0"
+    h3 "^1.13.1"
     klona "^2.0.6"
-    pathe "^1.1.2"
-    postcss "^8.4.47"
-    postcss-nesting "^13.0.0"
+    pathe "^2.0.1"
+    postcss "^8.4.49"
+    postcss-nesting "^13.0.1"
     tailwind-config-viewer "^2.0.4"
-    tailwindcss "~3.4.13"
+    tailwindcss "~3.4.17"
     ufo "^1.5.4"
-    unctx "^2.3.1"
+    unctx "^2.4.1"
 
 "@parcel/watcher-android-arm64@2.4.1":
   version "2.4.1"
@@ -3760,13 +3761,13 @@ gzip-size@^7.0.0:
   dependencies:
     duplexer "^0.1.2"
 
-h3@^1.10.0, h3@^1.12.0, h3@^1.13.0:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/h3/-/h3-1.13.0.tgz#b5347a8936529794b6754b440e26c0ab8a60dceb"
-  integrity sha512-vFEAu/yf8UMUcB4s43OaDaigcqpQd14yanmOsn+NcRX3/guSKncyE2rOYhq8RIchgJrPSs/QiIddnTTR1ddiAg==
+h3@^1.10.0, h3@^1.12.0, h3@^1.13.0, h3@^1.13.1:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/h3/-/h3-1.13.1.tgz#915966340b0b0ebeca1acc39bd2ecae08ae331f6"
+  integrity sha512-u/z6Z4YY+ANZ05cRRfsFJadTBrNA6e3jxdU+AN5UCbZSZEUwgHiwjvUEe0k1NoQmAvQmETwr+xB5jd7mhCJuIQ==
   dependencies:
     cookie-es "^1.2.2"
-    crossws ">=0.2.0 <0.4.0"
+    crossws "^0.3.1"
     defu "^6.1.4"
     destr "^2.0.3"
     iron-webcrypto "^1.2.1"
@@ -5811,7 +5812,7 @@ pathe@^1.1.1, pathe@^1.1.2:
   resolved "https://registry.yarnpkg.com/pathe/-/pathe-1.1.2.tgz#6c4cb47a945692e48a1ddd6e4094d170516437ec"
   integrity sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==
 
-pathe@^2.0.0:
+pathe@^2.0.0, pathe@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/pathe/-/pathe-2.0.1.tgz#ee1e6965c5ccfc98dc5a4b366a6ba6dd624a33d6"
   integrity sha512-6jpjMpOth5S9ITVu5clZ7NOgHNsv5vRQdheL9ztp2vZmM6fRbLvyua1tiBIL4lk8SAe3ARzeXEly6siXCjDHDw==
@@ -6004,7 +6005,7 @@ postcss-nested@^6.2.0:
   dependencies:
     postcss-selector-parser "^6.1.1"
 
-postcss-nesting@^13.0.0:
+postcss-nesting@^13.0.1:
   version "13.0.1"
   resolved "https://registry.yarnpkg.com/postcss-nesting/-/postcss-nesting-13.0.1.tgz#c405796d7245a3e4c267a9956cacfe9670b5d43e"
   integrity sha512-VbqqHkOBOt4Uu3G8Dm8n6lU5+9cJFxiuty9+4rcoyRPO9zZS1JIs6td49VIoix3qYqELHlJIn46Oih9SAKo+yQ==
@@ -7078,7 +7079,7 @@ tailwind-config-viewer@^2.0.4:
     portfinder "^1.0.26"
     replace-in-file "^6.1.0"
 
-tailwindcss@~3.4.13:
+tailwindcss@~3.4.17:
   version "3.4.17"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.4.17.tgz#ae8406c0f96696a631c790768ff319d46d5e5a63"
   integrity sha512-w33E2aCvSDP0tW9RZuNXadXlkHXqFzSkQew/aIa2i/Sj8fThxwovwlXHSPXTbAHwEIhBFXAedUhP2tueAKP8Og==
