@@ -1,6 +1,6 @@
 <template>
     <li>
-        <PopoverButton as="div" class="block py-2">
+        <PopoverButton as="template" class="block py-2">
             <NuxtLink :to="to">
                 <slot></slot>
             </NuxtLink>
