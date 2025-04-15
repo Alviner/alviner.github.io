@@ -1,0 +1,1 @@
+import{_ as t}from"./D6j2V4C9.js";import{n as a,o as s,G as o,w as n,a as r}from"./BCQIh5WB.js";const f=a({__name:"index",setup(_){return(m,e)=>(s(),o(t,{class:"mt-9"},{default:n(()=>e[0]||(e[0]=[r("p",null,"Lets try",-1)])),_:1}))}});export{f as default};
